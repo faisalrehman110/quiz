@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff6b7a">
+  <meta name="description" content="One simple question, one honest answer.">
+  <title>One Question</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="home">
+  <div class="noise" aria-hidden="true"></div>
+
+  <main class="split-layout">
+    <section class="visual-panel" aria-label="Faisal Ansari photo collage">
+      <div class="visual-copy">
+        <span class="mini-label">A small page for one person</span>
+        <h1>Some questions<br>already know<br>their answer.</h1>
+      </div>
+
+      <div class="photo-stack" aria-hidden="true">
+        <figure class="photo photo--one">
+          <img src="assets/images/portrait-a.jpg" alt="">
+        </figure>
+        <figure class="photo photo--two">
+          <img src="assets/images/portrait-b.jpg" alt="">
+        </figure>
+        <figure class="photo photo--three">
+          <img src="assets/images/portrait-c.jpg" alt="">
+        </figure>
+      </div>
+
+      <div class="orbit orbit--one" aria-hidden="true"></div>
+      <div class="orbit orbit--two" aria-hidden="true"></div>
+      <span class="spark spark--a" aria-hidden="true">✦</span>
+      <span class="spark spark--b" aria-hidden="true">✧</span>
+    </section>
+
+    <section class="question-panel">
+      <div class="question-wrap">
+        <div class="question-number">01</div>
+        <p class="overline">Please answer honestly</p>
+
+        <h2>Do you love<br><strong>Faisal Ansari?</strong></h2>
+
+        <p class="supporting-copy">
+          No dramatic speech. No complicated choice. Just the answer that feels true.
+        </p>
+
+        <div class="answer-stage" id="answerStage">
+          <a class="answer answer--yes" href="yes.html" id="yesButton">
+            <span>Yes</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <button class="answer answer--no" type="button" id="noButton">
+            No
+          </button>
+        </div>
+
+        <p class="microcopy" id="microcopy" aria-live="polite">
+          Both options are visible. Only one is standing still.
+        </p>
+      </div>
+
+      <div class="corner-note" aria-hidden="true">
+        <span>FA</span>
+        <b>made with intention</b>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
